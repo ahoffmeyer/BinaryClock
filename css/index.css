@@ -123,3 +123,14 @@ h1 {
 }
 .clear { clear: both; }
 .time { font-size: 4em; }
+
+
+div.act {
+    background: rgb(80, 81, 82) !important;
+
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}

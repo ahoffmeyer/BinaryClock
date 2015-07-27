@@ -34,9 +34,9 @@ var clock = {
             for ( var i = 0; i < obj[ key ].length; i++ ) {
                 for ( var j = 0, val = obj[ key ][ i ]; j < val.length; j++) {
                     if ( val[ j ] === 1 ) {
-                        $('#'+ key).find('.col-'+ i.toString() +' > .clock-'+ j.toString()).css('background', '#fff');
+                        $('#'+ key).find('.col-'+ i.toString() +' > .clock-'+ j.toString()).addClass('act');
                     } else {
-                        $('#'+ key).find('.col-'+ i.toString() +' > .clock-'+ j.toString()).css('background', '#000');
+                        $('#'+ key).find('.col-'+ i.toString() +' > .clock-'+ j.toString()).removeClass('act');
                     }
                 }
             }
